@@ -9,5 +9,5 @@ def check_username(username):
     else:
         print(f"The username '{username}' is already taken on Twitter.")
 
-username = "example_user"
+username = input("Enter a Twitter username to check for availability: ")
 check_username(username)
